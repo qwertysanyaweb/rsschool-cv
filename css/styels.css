@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic");
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html {
+  min-height: 100%; }
+
+a {
+  color: #14ad08;
+  text-decoration: underline; }
+  a:hover {
+    text-decoration: none; }
+
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000; }
+
+img {
+  max-width: 100%; }
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 15px 15px; }
+
+.my_profil {
+  position: relative;
+  height: 458px;
+  overflow: hidden; }
+  .my_profil img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .my_profil:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2); }
+  .my_profil .info {
+    position: absolute;
+    bottom: 20px;
+    left: 385px;
+    color: #fff;
+    margin: 0;
+    z-index: 2; }
+  .my_profil h1 {
+    margin-bottom: 10px; }
+
+.content {
+  padding-top: 15px;
+  border-top: 2px solid #14ad08;
+  margin-top: 20px; }
+  .content ul li {
+    margin-top: 10px; }
+    .content ul li:first-child {
+      margin-top: 0; }
+
+/*# sourceMappingURL=styels.css.map */
