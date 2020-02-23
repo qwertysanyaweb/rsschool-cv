@@ -127,7 +127,7 @@ header {
     cursor: pointer;
     width: 16px;
     height: 27px;
-    background: url(images/slider-arrow.png) 0 0 no-repeat; }
+    background: url(assets/images/slider-arrow.png) 0 0 no-repeat; }
     .slidernav div:last-child {
       transform: rotate(180deg); }
 
