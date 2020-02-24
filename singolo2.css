@@ -99,7 +99,7 @@ h2 {
 .aboutus-wrap {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -20px; }
+  margin: 0 -10px; }
 
 .aboutus-block {
   width: 33%;
